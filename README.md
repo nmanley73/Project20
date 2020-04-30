@@ -1,7 +1,7 @@
 # Python Project - Analysis of the Iris Flower Dataset
 
 
-# Summary/Description
+## Summary/Description
 The Python Project consists of an analysis of Ronald Fisher's Iris Flower Dataset. The dataset consists of 50 samples each of three different species of the Iris Flower (Iris setosa, Iris virginica, Iris Versicolor). There are four features/variables measured in cm of the Iris Flower (sepal length, sepal width, petal length, petal width). Through visualization and analysis of these features we are able to distinguish each species of from each other.
 
 
@@ -68,7 +68,7 @@ plt.savefig("Fig 5. Sepal length vs sepal width.png")
 plt.clf()
 
 
-### References
+## References
 
 Background information - https://en.wikipedia.org/wiki/Iris_flower_data_set https://archive.ics.uci.edu/ml/datasets/iris
 
@@ -90,7 +90,7 @@ Iris Dataset Analysis (Python) - http://d4t4.biz/ml-with-scikit-learn/support-ve
 
 
 
-# Change log
+## Change log
 
 25/04/2020 - Created the project repository and downloaded a version of the Iris Flower Dataset to the repository. 
 
@@ -103,7 +103,7 @@ Iris Dataset Analysis (Python) - http://d4t4.biz/ml-with-scikit-learn/support-ve
 30/04/2020 - Fixed a bug in python code, ran tthe code which generated updated histograms and scatter plots. Amended code to incude creation of summary.txt file. Add some new scatter plots. Added statistical data. Updated README file. Unfortunately couldn't get images of plots inserted on README file.
 
 
-# Project Plan
+## Project Plan
 
 25/04/2020 - Late getting to this project but have a week to research and complete the project. Start project research, create new GitHub Repository for the project and download the Iris Flower dataset in text format. 
 
@@ -116,7 +116,7 @@ Iris Dataset Analysis (Python) - http://d4t4.biz/ml-with-scikit-learn/support-ve
 30/04/2020 - Complete the project to as high a standard as possible given the time constraints. Ensure all the files, code are up to date and committed to GitHub. Ensure README has been completed and submit the project.
 
 
-# Project Upload files
+## Uploaded files
 
 Iris_flower_dataset – Ronald Fisher’s Iris Flower Dataset downloaded from https://archive.ics.uci.edu/ml/datasets/iris
 
