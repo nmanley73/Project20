@@ -1,3 +1,5 @@
+# Analysis.py - Noel Manley Python Project 2020
+
 # Import libraries
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -7,8 +9,12 @@ import seaborn as sn
 # set data frame to the Iris Flower dataset in text format
 df = pd.read_csv("iris_flower_dataset.txt")
 
+# Summary of each variable saved out in Summary.txt file
+# Got code to assist with this from https://stackoverflow.com/questions/43044740/pandas-float64-dataframe-column-not-behaving-like-one-wrt-describe-and-to-csv-f
+df.describe().astype(float).to_csv("Summary.txt", sep=';', decimal=',', float_format="%.2f")
+
 # Split the sample into a sample for each species of Iris Flower
-# Got code from 
+# Got code to split the dataset into 3 species from https://medium.com/@avulurivenkatasaireddy/exploratory-data-analysis-of-iris-data-set-using-python-823e54110d2d
 iris_setosa = df.loc[df["species"]=="Iris-setosa"]
 iris_virginica = df.loc[df["species"]=="Iris-virginica"]
 iris_versicolor = df.loc[df["species"]=="Iris-versicolor"]
@@ -158,7 +164,6 @@ plt.ylabel("petal length (cm)")
 plt.xlabel("sepal width (cm)")
 plt.savefig("Fig 10.5 Sepal width vs petal length by species.png")
 plt.clf()
-
 
 
 
