@@ -6,10 +6,15 @@ The Python Project consists of an analysis of Ronald Fisher's Iris Flower Datase
 
 ## Investigation/Analysis
 
+
 ## Python Code
+
+fa845372d8db57a8e9d738735bfb286b  Stats.png
+
 
 ### References
 
+Background information - https://en.wikipedia.org/wiki/Iris_flower_data_set https://archive.ics.uci.edu/ml/datasets/iris
 Downloaded Iris Flower Dataset - https://archive.ics.uci.edu/ml/datasets/iris
 Help with Readme - https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3
 Code to split dataset - https://medium.com/@avulurivenkatasaireddy/exploratory-data-analysis-of-iris-data-set-using-python-823e54110d2d
