@@ -73,6 +73,11 @@ Data Visualization and explanation - https://www.kaggle.com/abhishekkrg/python-i
 
 Data two-dimensional representations - https://books.google.ie/books?id=Obs8BAAAQBAJ&pg=PA45&lpg=PA45&dq
 
+Data Visualization - Patrick Hoeys Data Visualization paper.pdf
+
+Iris Dataset Analysis (Python) - http://d4t4.biz/ml-with-scikit-learn/support-vector-machines-project-wip/
+
+
 
 # Change log
 
@@ -84,6 +89,7 @@ Data two-dimensional representations - https://books.google.ie/books?id=Obs8BAAA
 
 29/04/2020 – Had some issues with the link between the local repository and the GitHub repository which I couldn’t resolve so created a new repository and finally got the link working. Wrote some of the analysis.py code that creates the histograms and the scatter plots. For the scatter plots wasn’t sure whether the requirement was for completing the plots for the full sample or to complete plot by species. Divided the dataset into each species and completed plot which for each set of variables by each species of Iris Flower.
 
+30/04/2020 - Fixed a bug in python code, ran tthe code which generated updated histograms and scatter plots. Amended code to incude creation of summary.txt file. Add some new scatter plots. Added statistical data. Updated README file. Unfortunately couldn't get images of plots inserted on README file.
 
 # Project Plan
 
@@ -93,7 +99,7 @@ Data two-dimensional representations - https://books.google.ie/books?id=Obs8BAAA
 
 27/04/2020 - Continue researching the Iris Flower Dataset. Do up a template to be used for the README file. 
 
-28/04/2020 - Conduct an analysis of the data. 
+28/04/2020 - Conduct an analysis of the data and formulate an approach to display the data.
 
 30/04/2020 - Complete the project to as high a standard as possible given the time constraints. Ensure all the files, code are up to date and committed to GitHub. Ensure README has been completed and submit the project.
 
@@ -106,6 +112,8 @@ Readme.md – Containing details of the project (Summary, investigations, change
 analysis.py – See Python Code section above for details.
 
 Summary.txt – output of the summary of the dataset
+
+Stats.png - Statistics of the three Iris species of flower
 
 Iris_flower_dataset – Ronald Fisher’s dataset 
 
