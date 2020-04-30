@@ -14,8 +14,13 @@ in greater detail. The Iris Setosa population are aligned in the bottom left cor
 between the species (Fig 7.5 & Fig 8.5). However in Fig 5.5 by using a multivariate analysis using both sepal length and sepal width as the variables of analysis (with the exception of one outlier) the Iris setosa species is linearly seperable from the other two species. Individually sepal length of setosa are smaller and the
 sepal width is the largest of the other species. Given all those differences in attributes it is should be straighforward to identify a setosa species of the Iris flower.
 
-Distinguishing between the Versicolor and Virginica species is much more difficult as there is a lot of overlap between the two populations and they are not linearly seperable on any of the four variables. However using the statistical data and the scatter plots some patterns can be identified to differentiate between the two species.
+Distinguishing between the Versicolor and Virginica species is more difficult as there is a lot of overlap between the two populations and they are not linearly seperable on any of the four variables. However using the statistical data and the scatter plots some patterns can be identified to differentiate between the two species.
+From the statistical data whe comparing between Virginica and Versicolor we can see that Virginica has the longest sepals with an average of 6.59 cm, 0.65 cm longer than the Versicolor average. Virginica has wider sepals (average 2.97 cm) 0.2 cm wider than the average of versicolor. Virginica also has longer and wider petals than versicolor 
+by on average 1.29 cm and 0.7 cm respectively. Petal length displays the greatest divergence with little overlap between the two species. This pattern can also be visualised  in the sscatter plots of the two species. Fig 5.5 shows much overlap for sepal width and sepal length however some of the virginica species have larger and wider petals 
+than their Versicolor counterparts. Fig 6.5, Fig 7.5, Fig 8.5, Fig 9.5 and Fig 10.5 which all feature the petal attribute confirms the statistical data with the Virginica Iris Flower species longer and wider than Versicolor.
 
+In summary if an Iris flower has short sepal, relatively wide sepal, short petals and very narrow petals it is likely to be from the setosa species of the flower. If the flower has a long sepal, a long petal and a wide petal it is likely to be from the Virginica species of the flower. If the flower does not fit into either of those categories
+and has an intermediate sepal length and width and petal length and width it is most likely to be from the Versicolor species.
 
 
 
