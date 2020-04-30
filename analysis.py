@@ -121,6 +121,45 @@ plt.xlabel("sepal width (cm)")
 plt.savefig("Fig 8.5 Sepal width vs petal width by species.png")
 plt.clf()
 
+# Create scatter plot of sepal length against petal width. Add title, xlabel, ylabel and save
+plt.plot(df["sepal_length"], df["petal_width"],'b.')
+plt.title("Sepal length vs petal width (cm)")
+plt.ylabel("petal width (cm)")
+plt.xlabel("sepal length (cm)")
+plt.savefig("Fig 9. Sepal length vs petal width.png")
+plt.clf()
+
+# Create scatter plot of sepal length against petal width by the 3 different species. Add title, legend, xlabel, ylabel and save
+plt.plot(iris_setosa["sepal_length"], iris_setosa["petal_width"],'r.', label = 'Iris setosa')
+plt.plot(iris_versicolor["sepal_length"],iris_versicolor["petal_width"],'g.', label = 'Iris versicolor')
+plt.plot(iris_virginica["sepal_length"],iris_virginica["petal_width"],'b.', label = 'Iris virginica')
+plt.legend()
+plt.title("Sepal length vs Petal width comparison by species type")
+plt.ylabel("petal width (cm)")
+plt.xlabel("sepal length (cm)")
+plt.savefig("Fig 9.5 Sepal length vs petal width by species.png")
+plt.clf()
+
+# Create scatter plot of sepal width against petal length. Add title, xlabel, ylabel and save
+plt.plot(df["sepal_width"], df["petal_length"],'b.')
+plt.title("Sepal width vs petal length (cm)")
+plt.ylabel("petal length (cm)")
+plt.xlabel("sepal width (cm)")
+plt.savefig("Fig 10. Sepal width vs petal length.png")
+plt.clf()
+
+# Create scatter plot of sepal width against petal length by the 3 different species. Add title, legend, xlabel, ylabel and save
+plt.plot(iris_setosa["sepal_width"], iris_setosa["petal_length"],'r.', label = 'Iris setosa')
+plt.plot(iris_versicolor["sepal_width"],iris_versicolor["petal_length"],'g.', label = 'Iris versicolor')
+plt.plot(iris_virginica["sepal_width"],iris_virginica["petal_length"],'b.', label = 'Iris virginica')
+plt.legend()
+plt.title("Sepal width vs Petal length comparison by species type")
+plt.ylabel("petal length (cm)")
+plt.xlabel("sepal width (cm)")
+plt.savefig("Fig 10.5 Sepal width vs petal length by species.png")
+plt.clf()
+
+
 
 
 
