@@ -4,6 +4,7 @@
 # Summary/Description
 The Python Project consists of an analysis of Ronald Fisher's Iris Flower Dataset. The dataset consists of 50 samples each of three different species of the Iris Flower (Iris setosa, Iris virginica, Iris Versicolor). There are four features/variables measured in cm of the Iris Flower (sepal length, sepal width, petal length, petal width). Through visualization and analysis of these features we are able to distinguish each species of from each other.
 
+
 ## Investigation/Analysis
 
 By splitting the Iris Flower Dataset into three seperate datasets for each species of Iris Flower(setosa, virginica, versicolor) one can analyse each seperate dataset, identify the differences in the four variables of the three species and identify which species of Iris flower based upon its dimensions.
@@ -22,26 +23,34 @@ than their Versicolor counterparts. Fig 6.5, Fig 7.5, Fig 8.5, Fig 9.5 and Fig 1
 In summary if an Iris flower has short sepal, relatively wide sepal, short petals and very narrow petals it is likely to be from the setosa species of the flower. If the flower has a long sepal, a long petal and a wide petal it is likely to be from the Virginica species of the flower. If the flower does not fit into either of those categories
 and has an intermediate sepal length and width and petal length and width it is most likely to be from the Versicolor species.
 
+In terms of the Iris virginica and Iris versicolor species and the overlap between the two species it is extremely difficult to understand how some of the individuals flowers are classified as one species over another.The main disguishing factor between the two species are the petal attribute dimensions. However in Fig 7.5 there are approximately
+15/20 flowers which overlap and could be defined as either species of flower. There are some of the virginica species within the versicolor population and vice versa. Were some of these flowers classified incorrectly? From my viewpoint i would either merge both virginica and versicolor into one Iris species or create an addition species whereby 
+those that overlap would be one species of Iris and the outliers on both sides would be two seperate species. That would create it's own issues in terms of callification of species. Its an inexact science however visualization of the data in terms of plots and graphs is assisting in helping to identifying the species something that Fisher and Anderson
+probably didn't have back when they were identifying the species of the flower.
 
 
 
 ## Python Code
 
 - Import the required libraries
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sn
 
 - Create the summary.txt file to get overall statistics of dataset
+
 df.describe().astype(float).to_csv("Summary.txt", sep=';', decimal=',', float_format="%.2f")
 
 - Split the sample into a sample for each species of Iris Flower
+
 iris_setosa = df.loc[df["species"]=="Iris-setosa"]
 iris_virginica = df.loc[df["species"]=="Iris-virginica"]
 iris_versicolor = df.loc[df["species"]=="Iris-versicolor"]
 
 - Create histogram for all variables. Add title, x label, y label, save and clear
+
 plt.hist(df["sepal_length"])
 plt.title("Sepal length")
 plt.xlabel("Sepal length")
@@ -50,12 +59,14 @@ plt.savefig("Fig 1. Sepal length.png")
 plt.clf()
 
 - Create scatter plot for two variables together. Add title, xlabel, ylabel, save and clear
+
 plt.plot(df["sepal_length"], df["sepal_width"],'b.')
 plt.title("sepal length vs sepal width (cm)")
 plt.ylabel("sepal width (cm)")
 plt.xlabel("sepal length (cm)")
 plt.savefig("Fig 5. Sepal length vs sepal width.png")
 plt.clf()
+
 
 ### References
 
@@ -91,6 +102,7 @@ Iris Dataset Analysis (Python) - http://d4t4.biz/ml-with-scikit-learn/support-ve
 
 30/04/2020 - Fixed a bug in python code, ran tthe code which generated updated histograms and scatter plots. Amended code to incude creation of summary.txt file. Add some new scatter plots. Added statistical data. Updated README file. Unfortunately couldn't get images of plots inserted on README file.
 
+
 # Project Plan
 
 25/04/2020 - Late getting to this project but have a week to research and complete the project. Start project research, create new GitHub Repository for the project and download the Iris Flower dataset in text format. 
@@ -102,6 +114,7 @@ Iris Dataset Analysis (Python) - http://d4t4.biz/ml-with-scikit-learn/support-ve
 28/04/2020 - Conduct an analysis of the data and formulate an approach to display the data.
 
 30/04/2020 - Complete the project to as high a standard as possible given the time constraints. Ensure all the files, code are up to date and committed to GitHub. Ensure README has been completed and submit the project.
+
 
 # Project Upload files
 
