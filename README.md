@@ -2,14 +2,23 @@
 
 
 # Summary/Description
-The Python Project consists of an analysis of Ronald Fisher's Iris Flower Dataset. The dataset consists of 50 samples each of three different species of the Iris Flower (Iris setosa, Iris virginica, Iris Versicolor). There are 4 features/variables measured in cm of the Iris Flower (sepal length, sepal width, petal length, petal width). Through visualization and analysis of these features we are able to distinguish each species of from each other.
+The Python Project consists of an analysis of Ronald Fisher's Iris Flower Dataset. The dataset consists of 50 samples each of three different species of the Iris Flower (Iris setosa, Iris virginica, Iris Versicolor). There are four features/variables measured in cm of the Iris Flower (sepal length, sepal width, petal length, petal width). Through visualization and analysis of these features we are able to distinguish each species of from each other.
 
 ## Investigation/Analysis
+
+By splitting the Iris Flower Dataset into three seperate datasets for each species of Iris Flower(setosa, virginica, versicolor) one can analyse each seperate dataset, identify the differences in the four variables of the three species and identify which species of Iris flower based upon its dimensions.
+
+From reviewing scatter plots Fig 6.5, Fig 7.5 and Fig 10.5 we can identify that petal length (cm) of Iris Setosa is considerably smaller than the other two species. The stats of all three Iris species confirm that. Iris Setosa has an average petal length of 1.46cm compared to Iris Virginica (5.55cm) and Iris Versicolor (4.26cm).
+Petal width (cm) of Iris Setosa is also smaller than the other species but not by as much 0.24cm compared to 1.33cm and 2.03cm for Versicolor and Virginica respectively. That difference can be visualised using Scatter plots of Fig 6.5, Fig 8.5 and Fig 9.5. Fig 6.5 Petal length vs petal width displays the difference in petal dimensions 
+in greater detail. The Iris Setosa population are aligned in the bottom left corner of the scatter plot whereas Versicolor and Virginica are distributed in the middle and top right. Its much more difficult to seperate Irish setosa from the other two species in terms of sepal length and sepal width individually as there is some overlap
+between the species (Fig 7.5 & Fig 8.5). However in Fig 5.5 by using a multivariate analysis using both sepal length and sepal width as the variables of analysis (with the exception of one outlier) the Iris setosa species is seperable from the other two species. Individually sepal length of setosa are smaller and the
+sepal width is the largest of the other species. Given all those differences in attributes it is should be striaghforward to identify a setosa species of the Iris flower.
+
 
 
 ## Python Code
 
-fa845372d8db57a8e9d738735bfb286b  Stats.png
+
 
 
 ### References
