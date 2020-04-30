@@ -22,7 +22,7 @@ than their Versicolor counterparts. Fig 6.5, Fig 7.5, Fig 8.5, Fig 9.5 and Fig 1
 In summary if an Iris flower has short sepal, relatively wide sepal, short petals and very narrow petals it is likely to be from the setosa species of the flower. If the flower has a long sepal, a long petal and a wide petal it is likely to be from the Virginica species of the flower. If the flower does not fit into either of those categories
 and has an intermediate sepal length and width and petal length and width it is most likely to be from the Versicolor species.
 
-
+GG
 
 
 
