@@ -35,8 +35,11 @@ probably didn't have back when they were identifying the species of the flower.
 - Import the required libraries
 
 import pandas as pd
+
 import matplotlib.pyplot as plt
+
 import numpy as np
+
 import seaborn as sn
 
 - Create the summary.txt file to get overall statistics of dataset
@@ -46,25 +49,37 @@ df.describe().astype(float).to_csv("Summary.txt", sep=';', decimal=',', float_fo
 - Split the sample into a sample for each species of Iris Flower
 
 iris_setosa = df.loc[df["species"]=="Iris-setosa"]
+
 iris_virginica = df.loc[df["species"]=="Iris-virginica"]
+
 iris_versicolor = df.loc[df["species"]=="Iris-versicolor"]
 
 - Create histogram for all variables. Add title, x label, y label, save and clear
 
 plt.hist(df["sepal_length"])
+
 plt.title("Sepal length")
+
 plt.xlabel("Sepal length")
+
 plt.ylabel("number")
+
 plt.savefig("Fig 1. Sepal length.png")
+
 plt.clf()
 
 - Create scatter plot for two variables together. Add title, xlabel, ylabel, save and clear
 
 plt.plot(df["sepal_length"], df["sepal_width"],'b.')
+
 plt.title("sepal length vs sepal width (cm)")
+
 plt.ylabel("sepal width (cm)")
+
 plt.xlabel("sepal length (cm)")
+
 plt.savefig("Fig 5. Sepal length vs sepal width.png")
+
 plt.clf()
 
 
